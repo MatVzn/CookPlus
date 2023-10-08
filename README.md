@@ -9,7 +9,7 @@ Página feita do zero com base nos conhecimentos adquiridos até o momento.
 </p>
 
 <p align="center">
-  <img alt="preview LinkMe" src=".github/preview.jpg" width="100%">
+  <img alt="preview Cook+" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
