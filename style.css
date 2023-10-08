@@ -7,8 +7,9 @@
 
 body {
     background: url(./assets/background.jpg) no-repeat right;
+    background-size: cover;
     width: auto;
-    height: auto;
+    min-height: 100vh;
     color: #39393A;
     font-weight: 400;
     padding: 30px 30px 0px;
