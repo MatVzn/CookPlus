@@ -6,10 +6,11 @@
 }
 
 body {
-    background-color: #EAEAEA;
+    background: url(./assets/background.jpg) no-repeat top right/cover;
     color: #39393A;
     font-weight: 400;
     padding: 30px 30px 0px;
+    height: 100vh;
 }
 
 h1, h2, figure {
@@ -19,6 +20,7 @@ h1, h2, figure {
 figcaption {
     color: #8F8F8F;
     text-align: right;
+    font-size: 16px;
 }
 
 #box {
@@ -32,7 +34,7 @@ figcaption {
 h1, h2 {
     color: #1B1B1B;
     margin: .7em 0em .7em;
-    font-size: 700;
+    font-weight: 700;
     letter-spacing: .03em;
 }
 
@@ -53,7 +55,11 @@ li {
 
 footer {
     text-align: center;
-    margin: 20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    margin: 20px auto;
 }
 
 footer a {
@@ -78,4 +84,15 @@ footer a:after {
 footer a:hover::after {
     opacity: 1;
     transform: translate3d(0, 1px, 0);
+}
+
+@media (max-width: 700px) {
+    #banner img {
+        max-height: 230px;
+        object-fit: cover;
+    }
+
+    figcaption {
+        font-size: 12px;
+    }
 }
