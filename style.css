@@ -5,6 +5,30 @@
     font-family: 'Roboto', serif;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    height: 50px;
+}
+
+header img {
+    height: 50px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+header #search {
+    background-color: #c7c7c7;
+    width: 300px;
+    margin: 14px 8px;
+    border-radius: 50px;
+}
+
+main {
+    padding: 40px 30px 0px;
+}
+
 body {
     background: url(./assets/background.jpg) no-repeat right;
     background-size: cover;
@@ -12,7 +36,6 @@ body {
     min-height: 100vh;
     color: #39393A;
     font-weight: 400;
-    padding: 30px 30px 0px;
 }
 
 h1, h2, figure {
