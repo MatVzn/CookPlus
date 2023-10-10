@@ -112,6 +112,10 @@ footer a:hover::after {
 }
 
 @media (max-width: 700px) {
+    main {
+        padding: 10px 10px 0px;
+    }
+
     #banner img {
         max-height: 230px;
         object-fit: cover;
