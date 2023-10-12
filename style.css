@@ -37,6 +37,10 @@ body {
     color: #39393A;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 h1, h2, figure {
     text-align: center;
 }
