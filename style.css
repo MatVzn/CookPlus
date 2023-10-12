@@ -35,7 +35,6 @@ body {
     width: auto;
     min-height: 100vh;
     color: #39393A;
-    font-weight: 400;
 }
 
 h1, h2, figure {
@@ -64,6 +63,7 @@ h1, h2 {
 }
 
 h1 {
+    font-size: 32px;
     margin: 0 0 .7em;
 }
 
