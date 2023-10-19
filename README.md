@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Cook+ é uma página de receitas simples e direto ao ponto... apesar de as vezes a receita passar um pouco do ponto.
+O Cook+ é uma página de receitas simples e direto ao ponto.
 
 - [Acesse o projeto finalizado, online](https://matvzn.github.io/CookPlus/)
 <br>
